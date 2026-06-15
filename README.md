@@ -67,4 +67,4 @@ python main.py
 ## Résultats
 Le projet permet d'obtenir un jeu de données enrichi sur les vulnérabilités publiées par l'ANSSI,
 de réaliser des analyses statistiques et de mettre en œuvre des modèles de Machine Learning
-pour l'étude des vulnérabilités.
+pour l'étude des vulnérabilités. 
