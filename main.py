@@ -370,7 +370,7 @@ def generer_alertes(df):
             f"EPSS        : {row['epss']}\n"
             f"Description : {str(row['description_cve'])[:200]}\n"
             f"Lien ANSSI  : {row['lien']}\n\n"
-            f"ACTION : Appliquez les correctifs immédiatement."
+            f"ACTION : Nous vous recommandons de faire les mises à jour de sécurité dans les plus brefs délais. \n"
         )
 
         send_email("destinataire@email.com", sujet, corps)
@@ -394,7 +394,7 @@ def main():
 
     generer_alertes(df_final)
 
-    print("\nProjet terminé avec succès.")
+    print("\nFin du projet.")
 
 
 if __name__ == "__main__":
